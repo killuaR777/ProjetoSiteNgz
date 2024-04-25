@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap');
+
+body{
+    background-color: var(--cor-primaria);
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+p{
+    font-family: var(--font-segundaria);
+}
+
+ul > li{
+    font-family: var(--font-segundaria);
+    list-style: none;
+}
+
+:root {
+
+    --cor-primaria: #0a031c;
+    --cor-secundaria: rgb(192, 181, 33);
+    --cor-terciaria: ;
+
+    --font-primaria: "Bebas Neue", sans-serif;
+    --font-segundaria: "Inconsolata", monospace;
+}
+
+.conteudo{
+    margin: auto;
+    background-color: rgb(253, 243, 220);
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.cabecalio{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 2, 66);
+}
+
+.foto__titulo{
+    width: 1380px;
+}
+
+.titulo{
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
+    
+}
+
+.informacoes__aniversario{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.rodape {
+    font-family: var(--font-segundaria);
+    color: var(--cor-primaria);
+    background-color: var(--cor-hover);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.link__rodape{
+    font-family: var();
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+

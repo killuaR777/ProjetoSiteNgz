@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200..900&display=swap');
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+:root{
+
+    --cor-primaria: #0a031c;
+    --cor-secundaria: rgb(192, 181, 33);
+    --cor-terciaria: ;
+
+    --font-primaria: "Bebas Neue", sans-serif;
+    --font-segundaria: "Inconsolata", monospace;
+}
+
+.cabecalio{
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo__pagina{
+    
+}
+
+.botao__whatsapp{
+    margin-top: 15px;
+    margin-left: 800px;
+}
+
+.botao__discord{
+    margin-top: 15px;
+}
+
+.link__cabecalio{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    margin-left: 20px;
+}
+
+.biografia__membros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 7px;
+    font-family: var(--font-segundaria);
+    border: 5px solid var(--cor-secundaria);
+}
+
+.biografia__membros:hover{
+    padding: 3px;
+    transition: 0.5s;
+}
+
+.biografia__membro__ruan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 1000px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 7px;
+    font-family: var(--font-segundaria);
+    border: 5px solid var(--cor-secundaria);
+}
+
+.biografia__membro__ruan:hover{
+    padding: 3px;
+    transition: 0.5s;
+}
+
+.foto__membros{
+    margin-top: 15px;
+}
+
+.foto__membros__ruan{
+    margin-top: 13px;
+    
+}
+
+.logos__biografia{
+    
+}
+
+.espaço__membros__primeiro{
+    display: flex;
+}
+
+.espaço__membros__segundo{
+    display: flex;
+    margin-top: 30px;
+}
+
+.nome__membros__ruan{
+    margin-top: 29px;
+}
+
+.rodape{
+    margin-top: 30px;
+    text-align: center;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    font-family: var(--font-primaria);
+    text-decoration: none;
+}
+
+.rodepe:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+.link__rodape{
+    color: var(--cor-secundaria);
+}
+
+.link__redesocias__membros{
+    text-decoration: none;
+}
